@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 // Conectar a la base de datos
-$conn = new mysqli('localhost', 'root', 'Contra_2001005025126.', 'ejercicio');
+$conn = new mysqli('193.203.168.5', 'u708242902_eliana_154', ']5sP3hj0i#s', 'u708242902_api','3306');
 
 // Verificar la conexión
 if ($conn->connect_error) {
